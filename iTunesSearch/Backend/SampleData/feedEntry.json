@@ -1,0 +1,81 @@
+{
+    "im:name": {
+      "label": "Piano Tiles 2 (Don't Tap The White Tile 2)"
+    },
+    "im:image": [
+      {
+        "label": "http://is3.mzstatic.com/image/thumb/Purple49/v4/b8/40/8d/b8408d09-959f-29fc-d264-5d5e0c5fb2f9/mzl.ovorvesb.png/53x53bb-85.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "http://is5.mzstatic.com/image/thumb/Purple49/v4/b8/40/8d/b8408d09-959f-29fc-d264-5d5e0c5fb2f9/mzl.ovorvesb.png/75x75bb-85.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "http://is3.mzstatic.com/image/thumb/Purple49/v4/b8/40/8d/b8408d09-959f-29fc-d264-5d5e0c5fb2f9/mzl.ovorvesb.png/100x100bb-85.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Piano Tiles 2 is the sequel to the hugely popular game Piano Tiles (Don't Tap the White Tile). New gameplay, first-class sound quality and a global competition mode give your fingers a fast paced thrill with the elegance of piano playing! \n\nWhat's new in Piano Tiles 2 (Don't Tap The White Tile 2) : \n◈Brand-new gameplay\n◈Compete with players around the world\n◈New color scheme, multicolor instead of black and white\n◈Great new music, feel the pleasure of a professional pianist\n◈Share your piano performance with your loved ones\n\nHow To Play:\nThe rules are clear: just tap the black tiles to the music and avoid other area.\nTry it out, enjoy the piano music, train your fingers to be faster, and see how well you stack up against your friends!\n\nContact Us:\nWe'd love to hear your suggestions and comments! We've got loads of improvements and new features planned, so stay tuned!\npianotiles2cmcm@gmail.com\n\nPrivacy Policy: \nhttp://www.cmcm.com/protocol/site/privacy.html"
+    },
+    "im:price": {
+      "label": "Get",
+      "attributes": {
+        "amount": "0.00000",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© cheetah technology corporation limited"
+    },
+    "title": {
+      "label": "Piano Tiles 2 (Don't Tap The White Tile 2) - Cheetah Technology Corporation Limited"
+    },
+    "link": {
+      "attributes": {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://itunes.apple.com/us/app/piano-tiles-2-dont-tap-white/id1027688889?mt=8&uo=2"
+      }
+    },
+    "id": {
+      "label": "https://itunes.apple.com/us/app/piano-tiles-2-dont-tap-white/id1027688889?mt=8&uo=2",
+      "attributes": {
+        "im:id": "1027688889",
+        "im:bundleId": "com.cmplay.tiles2"
+      }
+    },
+    "im:artist": {
+      "label": "Cheetah Technology Corporation Limited",
+      "attributes": {
+        "href": "https://itunes.apple.com/us/developer/cheetah-technology-corporation/id949821679?mt=8&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6014",
+        "term": "Games",
+        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+        "label": "Games"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-08-19T13:26:40-07:00",
+      "attributes": {
+        "label": "August 19, 2015"
+      }
+    }
+}
