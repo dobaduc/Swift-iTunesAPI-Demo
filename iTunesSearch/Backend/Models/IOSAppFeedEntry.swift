@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class ItunesIOSApp: ItunesFeedEntry {
+class IOSAppFeedEntry: ItunesFeedEntry {
     private(set) var bundleID: String?
 
     required init?(_ map: Map) {

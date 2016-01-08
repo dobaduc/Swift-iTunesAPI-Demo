@@ -64,7 +64,7 @@ enum ItunesFeedType: String {
     static func associatedModel(forFeedType feedType: ItunesFeedType) -> ItunesFeedEntry.Type {
         switch feedType {
         case .NewApps, .NewFreeApps, .NewPaidApps, .TopFreeApps, .TopFreeIPadApps, .TopGrossingApps, .TopGrossingIPadApps, .TopPaidApps, .TopPaidIPadApps:
-            return ItunesIOSApp.self
+            return IOSAppFeedEntry.self
         default:
             return ItunesFeedEntry.self
         }
@@ -98,7 +98,7 @@ struct ItunesSearchQuery: ItunesQueryProtocol {
     var explicit: Bool?
 
     init(term: String,
-        country: String? = "us",
+        country: String = "us",
         media: String?,
         entity: ItunesEntity?,
         attribute: String?,
@@ -108,7 +108,7 @@ struct ItunesSearchQuery: ItunesQueryProtocol {
         explicit: Bool?) {
 
             self.term = term
-            self.country = country!
+            self.country = country
 
             if let media = media {
                 self.media = media

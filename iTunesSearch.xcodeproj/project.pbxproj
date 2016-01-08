@@ -17,12 +17,17 @@
 		6E9BBF381C2D25DE00C03C31 /* feedEntry.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BBF361C2D25DE00C03C31 /* feedEntry.json */; };
 		6E9BBF391C2D25DE00C03C31 /* feedResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BBF371C2D25DE00C03C31 /* feedResults.json */; };
 		6EAF24561C310F72004F3441 /* ItunesFeedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF24551C310F72004F3441 /* ItunesFeedEntry.swift */; };
-		6EAF24581C310F83004F3441 /* ItunesIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF24571C310F83004F3441 /* ItunesIOSApp.swift */; };
-		6EAF245A1C310F8B004F3441 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF24591C310F8B004F3441 /* Song.swift */; };
-		6EAF245C1C31126C004F3441 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF245B1C31126C004F3441 /* Price.swift */; };
+		6EAF24581C310F83004F3441 /* IOSAppFeedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF24571C310F83004F3441 /* IOSAppFeedEntry.swift */; };
+		6EAF245A1C310F8B004F3441 /* SongFeedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF24591C310F8B004F3441 /* SongFeedEntry.swift */; };
 		6EB6FFD01C30CB35008E168F /* searchResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB6FFCF1C30CB35008E168F /* searchResults.json */; };
 		6EB6FFD21C30CE07008E168F /* lookup_284910350.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB6FFD11C30CE07008E168F /* lookup_284910350.json */; };
 		6EB6FFD41C30D62D008E168F /* lookup_909253.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB6FFD31C30D62D008E168F /* lookup_909253.json */; };
+		C6C343EF1C3D877C007C3E13 /* IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C343EE1C3D877C007C3E13 /* IOSApp.swift */; };
+		C6C343F11C3D878B007C3E13 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C343F01C3D878B007C3E13 /* Song.swift */; };
+		C6C343F31C3D884F007C3E13 /* ItunesSearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C343F21C3D884F007C3E13 /* ItunesSearchResultItem.swift */; };
+		C6C343F91C3D921B007C3E13 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C343F71C3D921B007C3E13 /* Author.swift */; };
+		C6C343FA1C3D921B007C3E13 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C343F81C3D921B007C3E13 /* Price.swift */; };
+		C6C343FC1C3D9374007C3E13 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C343FB1C3D9374007C3E13 /* Genre.swift */; };
 		F20DF570DC263B04CEDD573D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2857ECAB1AC02A0948F6880 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,14 +44,19 @@
 		6E9BBF361C2D25DE00C03C31 /* feedEntry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = feedEntry.json; sourceTree = "<group>"; };
 		6E9BBF371C2D25DE00C03C31 /* feedResults.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = feedResults.json; sourceTree = "<group>"; };
 		6EAF24551C310F72004F3441 /* ItunesFeedEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesFeedEntry.swift; sourceTree = "<group>"; };
-		6EAF24571C310F83004F3441 /* ItunesIOSApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesIOSApp.swift; sourceTree = "<group>"; };
-		6EAF24591C310F8B004F3441 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		6EAF245B1C31126C004F3441 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		6EAF24571C310F83004F3441 /* IOSAppFeedEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSAppFeedEntry.swift; sourceTree = "<group>"; };
+		6EAF24591C310F8B004F3441 /* SongFeedEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongFeedEntry.swift; sourceTree = "<group>"; };
 		6EB6FFCF1C30CB35008E168F /* searchResults.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchResults.json; sourceTree = "<group>"; };
 		6EB6FFD11C30CE07008E168F /* lookup_284910350.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lookup_284910350.json; sourceTree = "<group>"; };
 		6EB6FFD31C30D62D008E168F /* lookup_909253.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lookup_909253.json; sourceTree = "<group>"; };
 		9B448FBE2660E57D86ABC676 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A2857ECAB1AC02A0948F6880 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C343EE1C3D877C007C3E13 /* IOSApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSApp.swift; sourceTree = "<group>"; };
+		C6C343F01C3D878B007C3E13 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C6C343F21C3D884F007C3E13 /* ItunesSearchResultItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesSearchResultItem.swift; sourceTree = "<group>"; };
+		C6C343F71C3D921B007C3E13 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		C6C343F81C3D921B007C3E13 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		C6C343FB1C3D9374007C3E13 /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		D0240C88FA7B9E71E2A0B86F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,10 +92,13 @@
 		6E20B95C1C3106C8008DB5A4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C6C343F61C3D921B007C3E13 /* Common */,
 				6EAF24551C310F72004F3441 /* ItunesFeedEntry.swift */,
-				6EAF24571C310F83004F3441 /* ItunesIOSApp.swift */,
-				6EAF24591C310F8B004F3441 /* Song.swift */,
-				6EAF245B1C31126C004F3441 /* Price.swift */,
+				6EAF24571C310F83004F3441 /* IOSAppFeedEntry.swift */,
+				6EAF24591C310F8B004F3441 /* SongFeedEntry.swift */,
+				C6C343F21C3D884F007C3E13 /* ItunesSearchResultItem.swift */,
+				C6C343EE1C3D877C007C3E13 /* IOSApp.swift */,
+				C6C343F01C3D878B007C3E13 /* Song.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +164,16 @@
 				6EB6FFD31C30D62D008E168F /* lookup_909253.json */,
 			);
 			path = SampleData;
+			sourceTree = "<group>";
+		};
+		C6C343F61C3D921B007C3E13 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C6C343F71C3D921B007C3E13 /* Author.swift */,
+				C6C343F81C3D921B007C3E13 /* Price.swift */,
+				C6C343FB1C3D9374007C3E13 /* Genre.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,11 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAF245A1C310F8B004F3441 /* Song.swift in Sources */,
-				6EAF245C1C31126C004F3441 /* Price.swift in Sources */,
+				C6C343F31C3D884F007C3E13 /* ItunesSearchResultItem.swift in Sources */,
+				C6C343FA1C3D921B007C3E13 /* Price.swift in Sources */,
+				6EAF245A1C310F8B004F3441 /* SongFeedEntry.swift in Sources */,
+				C6C343EF1C3D877C007C3E13 /* IOSApp.swift in Sources */,
 				6EAF24561C310F72004F3441 /* ItunesFeedEntry.swift in Sources */,
-				6EAF24581C310F83004F3441 /* ItunesIOSApp.swift in Sources */,
+				C6C343F11C3D878B007C3E13 /* Song.swift in Sources */,
+				6EAF24581C310F83004F3441 /* IOSAppFeedEntry.swift in Sources */,
 				6E98F36B1C3B620D0059D634 /* ITunesItemTableViewController.swift in Sources */,
+				C6C343F91C3D921B007C3E13 /* Author.swift in Sources */,
+				C6C343FC1C3D9374007C3E13 /* Genre.swift in Sources */,
 				6E9BBF221C2CE55000C03C31 /* HomeViewController.swift in Sources */,
 				6E9BBF201C2CE55000C03C31 /* AppDelegate.swift in Sources */,
 				6E9BBF341C2CE7A100C03C31 /* ITunesSearchProvider.swift in Sources */,

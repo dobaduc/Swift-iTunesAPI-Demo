@@ -1,5 +1,5 @@
 //
-//  Song.swift
+//  Genre.swift
 //  iTunesSearch
 //
 //  Created by Duc DoBa on 1/7/16.
@@ -8,5 +8,7 @@
 
 import Foundation
 
-
-// TODO: Create Song model
+struct Genre {
+    let id: String
+    let name: String
+}

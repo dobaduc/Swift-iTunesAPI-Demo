@@ -103,8 +103,8 @@ class ITunesItemTableViewController: UITableViewController {
     func mapData(json: [String: AnyObject]) {
         let ModelClass = ItunesFeedType.associatedModel(forFeedType: self.feedType)
         switch ModelClass {
-        case is ItunesIOSApp.Type:
-            self.items = Mapper<ItunesIOSApp>().mapArray(json["feed"]!["entry"])!
+        case is IOSAppFeedEntry.Type:
+            self.items = Mapper<IOSAppFeedEntry>().mapArray(json["feed"]!["entry"])!
         default:
             self.items = Mapper<ItunesFeedEntry>().mapArray(json["feed"]!["entry"])!
         }

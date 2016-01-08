@@ -40,6 +40,7 @@ class HomeViewController: SegmentedViewController {
                 createTab("Free apps", feedType: .TopFreeApps),
                 createTab("Paid apps", feedType: .TopPaidApps),
                 createTab("Songs", feedType: .TopSongs),
+                createTab("Albums", feedType: .TopAlbums),
                 createTab("Podcast", feedType: .TopPodcasts)
             ]
 

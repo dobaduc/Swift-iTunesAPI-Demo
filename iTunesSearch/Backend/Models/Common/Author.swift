@@ -1,5 +1,6 @@
+
 //
-//  Song.swift
+//  File.swift
 //  iTunesSearch
 //
 //  Created by Duc DoBa on 1/7/16.
@@ -8,5 +9,8 @@
 
 import Foundation
 
-
-// TODO: Create Song model
+struct Author {
+    let id: String
+    let name: String
+    let itunesURL: String    
+}
