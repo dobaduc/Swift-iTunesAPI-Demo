@@ -47,7 +47,7 @@ An iTunes API demo written in Swift.
 
 # Sample code
 
-```
+```swift
 // Get entries from a specific RSS feed type
 let target = ItunesAPITarget(query: ItunesFeedQuery(country: "us",feedType: feedType, genre: nil, limit: 50))
 
